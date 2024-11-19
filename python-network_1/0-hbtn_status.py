@@ -6,7 +6,7 @@ import urllib.request
 
 if __name__ == '__main__':
     # URL to fetch - update it based on the required test case
-    url = 'https://intranet.hbtn.io/status'
+    url = 'https://alu-intranet.hbtn.io/status'
 
     # Create a request with a User-Agent header to avoid HTTP 403 errors
     request = urllib.request.Request(
