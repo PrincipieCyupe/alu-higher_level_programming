@@ -11,7 +11,7 @@ url = 'https://intranet.hbtn.io/status'
 if url.startswith('https://'):
     url = 'https://alu-intranet.hbtn.io/status'
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     with urllib.request.urlopen(url) as f:
         content = f.read()
         print("Body response:")
