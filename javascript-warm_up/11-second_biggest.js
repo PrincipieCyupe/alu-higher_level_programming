@@ -10,3 +10,4 @@ for (const num of process.argv.slice(2).map(Number)) {
     secondMax = num;
   }
 }
+console.log(secondMax);
